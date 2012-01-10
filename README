@@ -7,9 +7,6 @@
  *
  * Based on the Plaintext authentication backend
  *
- * @author     Andreas Gohr <andi@splitbrain.org> (Plaintext)
- * @author     Chris Smith <chris@jalakai.co.uk> (Plaintext)
- * @author     Aaron Kehrer <akehrer@in2being.com> (Plaintextplus)
  */
  
  INSTALLATION
