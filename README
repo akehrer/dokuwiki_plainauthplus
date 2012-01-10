@@ -1,0 +1,26 @@
+/**
+ * Plaintextplus authentication backend for dokuwiki that includes: 
+ * - limit incorrect password entries before locking user out 
+ * - set password expiration time limit
+ * - set hard login session time limit
+ * - track passwords and limit their reuse
+ *
+ * Based on the Plaintext authentication backend
+ *
+ * @author     Andreas Gohr <andi@splitbrain.org> (Plaintext)
+ * @author     Chris Smith <chris@jalakai.co.uk> (Plaintext)
+ * @author     Aaron Kehrer <akehrer@in2being.com> (Plaintextplus)
+ */
+ 
+ INSTALLATION
+ 1. place the plainplus.class.php file in your /wiki/inc/auth directory
+ 2. add the lines from local.protected.php file to the local.protected.php file in your /wiki/conf directory
+ 3. edit the values in local.protected.php to what you want for your system
+ 4. select the plainplus authentication backend in your wiki's configuration settings
+ 
+ NOTES
+ - The plaintextplus authentication system uses the authentication files from the original plaintext system and if you are using the plaintext sytem currently the change should be transparent to users.  This also means that if you decide to change back to the plaintext system you can without breaking anything.
+ 
+ - The code is still in a pre-release state, so things may not work in all cases.  You Have Been Warned!
+ 
+ 
